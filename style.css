@@ -1,0 +1,51 @@
+.header {
+    font-size: 88px;
+    color: green;
+}
+
+#greeting {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+
+}
+
+.greeting {
+    font-size: 20px;
+    text-align: center;
+}
+
+
+.roadmap {
+    font-size: 60px;
+    text-align: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 400px;
+    height: 400px;
+    border: solid green;
+}
+
+img {
+    height: 150px;
+}
+
+.roadmap-elements {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 25px;
+}
+
+.footer {
+    font-size: 60px;
+    padding-top: 40px;
+    text-align: center;
+}
